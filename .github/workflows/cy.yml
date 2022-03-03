@@ -15,4 +15,4 @@ jobs:
       - name: Tests
         run: npm test
       - name: Tests e2e
-        run: npm run start:e2e:ci
+        run: npm run test:e2e:ci
