@@ -15,6 +15,7 @@
     "test:watch": "npm run test -- --watchAll -i",
     "test:e2e": "npm start -- start:e2e",
     "start:e2e": "cypress open",
+    "start:e2e:ci": "cypress run",
     "clean": "rimraf dist"
   },
   "repository": {
