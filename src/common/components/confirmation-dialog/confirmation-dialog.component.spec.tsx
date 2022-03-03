@@ -80,7 +80,7 @@ describe('confirmation dialog component specs', () => {
     expect(acceptButtonElement).toEqual(null);
   });
 
-  it('when "closeButton" is clicked, "onClose" function should be called one time per click', () => {
+  it('when "closeButton" is clicked, "onClose" function should be called one time per click ', () => {
     // Arrange
     const props = {
       isOpen: true,
